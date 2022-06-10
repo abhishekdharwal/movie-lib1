@@ -7,5 +7,5 @@
 # RUN it locally 
 1. Clone the repo
 2. Run npm `install` 
-3 .Now run `npm start` to run it locally
+3. Now run `npm start` to run it locally
 
