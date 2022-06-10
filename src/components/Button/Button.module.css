@@ -1,0 +1,38 @@
+.button {
+  /* margin-top: 10px; */
+  /* height: px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35px;
+  width: 120px;
+  outline: none;
+  border-color: none;
+  border-radius: 10px;
+  background-color: #faead6;
+  background-color: #8c5ac2;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}
+.button1 {
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #4a1d7a; /* Green */
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .button1 {
+    height: 50px;
+    width: 100px;
+  }
+}

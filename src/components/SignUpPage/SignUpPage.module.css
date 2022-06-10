@@ -1,0 +1,13 @@
+.LoginPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}

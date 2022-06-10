@@ -1,0 +1,42 @@
+.Navigation {
+  background-color: rgb(250, 234, 214);
+  color: black;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+.right_1 {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-ar; */
+  justify-content: flex-end;
+  padding-right: 10%;
+  align-items: center;
+}
+.inputPlace {
+  border: 1rem;
+  border-radius: 1rem;
+  height: 1.5rem;
+  width: 60%;
+  max-width: 95%;
+  text-align: center;
+}
+.icon {
+  margin-left: -1.75rem;
+}
