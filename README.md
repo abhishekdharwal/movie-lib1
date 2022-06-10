@@ -5,7 +5,7 @@
 ![list page](https://user-images.githubusercontent.com/56113773/173054671-083f6bc2-26a8-422f-8a03-5b4ccc806058.jpg)
 
 # RUN it locally 
-Clone the repo
-Run npm `install` 
-Now run `npm start` to run it locally
+1. Clone the repo
+2. Run npm `install` 
+3 .Now run `npm start` to run it locally
 
