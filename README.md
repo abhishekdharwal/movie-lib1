@@ -4,5 +4,8 @@
 ![dashboard](https://user-images.githubusercontent.com/56113773/173054656-1fa8a209-fdc2-4a75-895a-a83560187692.jpg)
 ![list page](https://user-images.githubusercontent.com/56113773/173054671-083f6bc2-26a8-422f-8a03-5b4ccc806058.jpg)
 
-
+# RUN it locally 
+clone the repo
+Run npm `install` 
+Now run `npm start` to run it locally
 
