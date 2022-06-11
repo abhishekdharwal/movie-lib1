@@ -6,9 +6,7 @@ const headers = {
   },
 };
 
-const main0 = axios.create({
-  baseURL: "https://movie--lib.herokuapp.com/",
+export default axios.create({
+  baseURL: "https://movie-lib-ee.herokuapp.com/",
   headers,
 });
-const main = axios.create({ baseURL: "https://www.omdbapi.com/", headers });
-export { main0, main };
