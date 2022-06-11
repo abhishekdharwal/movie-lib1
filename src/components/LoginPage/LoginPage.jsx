@@ -21,7 +21,7 @@ const LoginPage = () => {
 
   const handleSubmit = async () => {
     try {
-      await api.post("https://movie--lib.herokuapp.com/api/login", data).then(
+      await api.post("https://cors-anywhere.herokuapp.com/https://movie--lib.herokuapp.com/api/login", data).then(
         (res) => {
           console.log(res);
           dispatch(updateActive(true));

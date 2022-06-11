@@ -131,7 +131,9 @@ const MoviePage = () => {
     if (NewSearch) {
       const fetch = async () => {
         await axios
-          .get(`https://www.omdbapi.com/?s=${NewSearch}&apikey=25097c37`)
+          .get(
+            `https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?s=${NewSearch}&apikey=25097c37`
+          )
           .then((res) => res.data)
           .then((res) => {
             console.log(res.Search);
@@ -165,7 +167,9 @@ const MoviePage = () => {
         const arr2 = AllMovies;
         console.log(AllMovies);
         axios
-          .get(`https://www.omdbapi.com/?i=${MovieID}&apikey=25097c37`)
+          .get(
+            `https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?i=${MovieID}&apikey=25097c37`
+          )
           .then((res) => res.data)
           .then((res) => {
             const data2 = {

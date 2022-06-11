@@ -23,7 +23,9 @@ const MovieBox = (props) => {
 
   useEffect(() => {
     axios
-      .get(`https://www.omdbapi.com/?i=${props.movie.imdbID}&apikey=25097c37`)
+      .get(
+        `https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?i=${props.movie.imdbID}&apikey=25097c37`
+      )
       .then((res) => res.data)
       .then((res) => {
         setData(res);
