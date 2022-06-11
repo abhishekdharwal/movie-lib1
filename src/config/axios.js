@@ -7,6 +7,6 @@ const headers = {
 };
 
 export default axios.create({
-  baseURL: "http://localhost:5500/",
+  baseURL: "https://movie-lib-ee.herokuapp.com",
   headers,
 });
