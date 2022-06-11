@@ -12,5 +12,12 @@ const headers = {
 
 export default axios.create({
   baseURL: "https://www.omdbapi.com/",
-  headers,
+  method: "GET",
+  mode: "no-cors",
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Type": "application/json",
+  },
+  withCredentials: true,
+  credentials: "same-origin",
 });
