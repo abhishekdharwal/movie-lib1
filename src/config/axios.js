@@ -1,9 +1,13 @@
 import axios from "axios";
 const headers = {
-  "Content-Type": "application/json",
+  method: "GET",
+  mode: "no-cors",
   headers: {
     "Access-Control-Allow-Origin": "*",
+    "Content-Type": "application/json",
   },
+  withCredentials: true,
+  credentials: "same-origin",
 };
 
 export default axios.create({
