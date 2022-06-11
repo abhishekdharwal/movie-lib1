@@ -7,6 +7,6 @@ const headers = {
 };
 
 export default axios.create({
-  baseURL: "https://movie-lib-ee.herokuapp.com/",
+  baseURL: "https://www.omdbapi.com/",
   headers,
 });
