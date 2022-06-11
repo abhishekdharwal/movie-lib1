@@ -24,7 +24,7 @@ const SignUpPage = () => {
   const handleSubmit = async () => {
     try {
       await api
-        .post("https://movie-lib-ee.herokuapp.com/api/register", data)
+        .post("https://movie--lib.herokuapp.com/api/register", data)
         .then(
           (res) => {
             console.log(res);
