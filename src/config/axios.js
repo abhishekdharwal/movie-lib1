@@ -11,8 +11,7 @@ const headers = {
 };
 
 export default axios.create({
-  baseURL: "https://www.omdbapi.com/",
-  method: "GET",
+  baseURL: "https://movie--lib.herokuapp.com/",
   mode: "no-cors",
   headers: {
     "Access-Control-Allow-Origin": "*",
